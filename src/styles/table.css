@@ -1,0 +1,28 @@
+.table {
+  margin: auto;
+  margin-top: 100px;
+  height: 250px;
+  width: 250px;
+}
+
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  border-left: 1px solid black;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 140px));
+  border: 1px solid black;
+  width: 100hv;
+  border-top: 1px solid black;
+  width: 300px;
+}
+
+.td-border {
+}
